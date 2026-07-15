@@ -195,8 +195,7 @@ div[data-testid="stMetric"] { background: white; border-radius: 12px; padding: 0
 """, unsafe_allow_html=True)
 
 # ── Load artifacts ────────────────────────────────────────────
-MODEL_DIR = os.path.join(os.path.dirname(__file__), 'output')
-
+MODEL_DIR = os.path.dirname(__file__)
 @st.cache_resource
 def load_artifacts():
     rf    = joblib.load(f'{MODEL_DIR}/random_forest_model.joblib')
