@@ -220,8 +220,8 @@ with st.sidebar:
     <div class='sb-info'>
         <b>Program Studi</b><br>Sistem Informasi<br>
         <b>Institusi</b><br>Universitas Hang Tuah Pekanbaru<br>
-        <b>Mata Kuliah</b><br>Data Science<br>
-        <b>Dosen</b><br>Yuda Irawan, S.Kom, M.TI
+        <b>Mata Kuliah</b><br>Data Warehouse & Data Mining<br>
+        <b>Dosen</b><br>Hendry Fonda, S.Kom., M.Kom
     </div>""", unsafe_allow_html=True)
 
     st.markdown("---")
